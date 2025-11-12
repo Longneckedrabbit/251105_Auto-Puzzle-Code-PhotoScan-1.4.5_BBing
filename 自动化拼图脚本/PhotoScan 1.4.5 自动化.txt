@@ -1,0 +1,15 @@
+"""
+PhotoScan 1.4.5 自动化
+流程：
+1) 添加照片 → 对齐(High) → 深度图/稠密点云(High,Mild)
+2) 网格
+3) 保存为 .psx
+4) 重新打开 .psx
+5) 构建 DEM → 正射
+6) 导出正射为 JPEG：<影像文件夹名>_orth.jpg
+
+用法：
+# "E:\App\photoscan\photoscan.exe" -r "C:\Users\nky\Desktop\PhotoScan1.4.5.py" "G:\123"
+可选：
+# "E:\App\photoscan\photoscan.exe" -r "C:\Users\nky\Desktop\PhotoScan1.4.5.py" "G:\123" "G:\123\myproj.psx" "G:\123\outputs"
+"""
